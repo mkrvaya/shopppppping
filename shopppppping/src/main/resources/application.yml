@@ -1,0 +1,68 @@
+spring:
+  application:
+    name: shopppppping
+  liquibase:
+    enabled: true
+    change-log: 'classpath:db/changelog/db.changelog-master.xml'
+    default-schema: project_makarova
+    liquibase-schema: project_makarova
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: 'jdbc:postgresql://localhost:5432/makarova?currentSchema=project_makarova'
+    username: project_makarova
+    password: project_makarova
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      force-response: true
+management:
+  security:
+    enabled: false
+  health:
+    binders:
+      enabled: false
+    ldap:
+      enabled: false
+    jms:
+      enabled: false
+    rabbit:
+      enabled: false
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    health:
+      show-details: always
+    quartz:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+
+logging.level:
+  ROOT: INFO
+  org.springframework: INFO
+#  org:
+#    springframework:
+#      web:
+#        client:
+#          RestTemplate: DEBUG
+
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+  type-aliases-package: .mybatis
+  configuration:
+    map-underscore-to-camel-case: true
+    default-executor-type: batch
+    default-statement-timeout: 40
+    default-result-set-type: forward_only

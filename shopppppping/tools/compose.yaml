@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  postgres-makarova:
+    container_name: postgres-makarova
+    image: postgres:15.14
+    volumes:
+      - ./sql/database.sql:/docker-entrypoint-initdb.d/database.sql
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: makarova
+      POSTGRES_USER: project_makarova
+      POSTGRES_PASSWORD: project_makarova
+

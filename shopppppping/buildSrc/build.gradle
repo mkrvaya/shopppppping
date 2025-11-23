@@ -1,0 +1,7 @@
+repositories {
+    gradlePluginPortal()
+}
+
+dependencies {
+    implementation 'org.liquibase:liquibase-gradle-plugin:2.2.1'
+}

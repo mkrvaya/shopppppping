@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.makarova.shopppppping.mapper.BatisMapper">
+
+    <insert id="insetToUpload">
+        insert into product_upload (id, product_name, create_date)
+        values (nextval('product_upload_id_seq'), #{productName}, now())
+    </insert>
+
+    <update id="updateProductsToUpload">
+        update product_upload set last_sync_date = #{productForUpload.lastSyncDate}, <if test="productForUpload.isLast != null">is_last = true, </if>  last_page_number = #{productForUpload.lastPageNumber} where id = #{productForUpload.id}
+    </update>
+
+    <resultMap id="productForUploadResultMap" type="com.makarova.shopppppping.domain.ProductForUpload">
+        <id column="id" property="id"/>
+        <result column="product_name" property="productName"/>
+        <result column="create_date" property="createDate"/>
+        <result column="last_sync_date" property="lastSyncDate"/>
+        <result column="last_page_number" property="lastPageNumber"/>
+        <result column="is_last" property="isLast"/>
+    </resultMap>
+
+    <select id="findProductForUpload" resultMap="productForUploadResultMap">
+        select * from product_upload where is_last is null order by last_sync_date nulls first limit 1;
+    </select>
+
+    <insert id="insertToProducts">
+        insert into products (id, source, external_product_id, product_name, product_brand, price, review_rating, feedbacks, total_quantity, sizes)
+        values (nextval('products_id_seq'), #{product.source}, #{product.externalProductId}, #{product.productName}, #{product.productBrand}, #{product.price}, #{product.reviewRating}, #{product.feedbacks}, #{product.totalQuantity}, #{product.sizes})
+    </insert>
+</mapper>

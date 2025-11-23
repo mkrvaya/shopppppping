@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.9.xsd">
+
+    <changeSet id="1" author="makarova">
+        <createSequence
+                sequenceName="products_id_seq"
+                schemaName="project_makarova"
+                incrementBy="1"
+                startValue="10000"
+                cycle="false"/>
+    </changeSet>
+
+    <changeSet id="2" author="makarova">
+        <createTable tableName="products" schemaName="project_makarova">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="products_id_pk"/>
+            </column>
+            <column name="source" type="text"/>
+            <column name="external_product_id" type="bigint"/>
+            <column name="product_brand" type="text"/>
+            <column name="product_name" type="text"/>
+            <column name="price" type="bigint"/>
+            <column name="review_rating" type="text"/>
+            <column name="feedbacks" type="bigint"/>
+            <column name="total_quantity" type="bigint"/>
+            <column name="sizes" type="text"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="3" author="makarova">
+        <createSequence
+                sequenceName="product_upload_id_seq"
+                schemaName="project_makarova"
+                incrementBy="1"
+                startValue="10000"
+                cycle="false"/>
+    </changeSet>
+
+    <changeSet id="4" author="makarova">
+        <createTable tableName="product_upload" schemaName="project_makarova">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="product_upload_id_pk"/>
+            </column>
+            <column name="product_name" type="text"/>
+            <column name="create_date" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="last_sync_date" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="last_page_number" type="bigint"/>
+            <column name="is_last" type="boolean"/>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>

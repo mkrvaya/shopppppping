@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "catalog_type": "preset",
+    "catalog_value": "preset=200020762",
+    "normquery": "setner",
+    "search_result": {},
+    "name": "Сетнер",
+    "rmi": "1",
+    "title": "Сетнер",
+    "rs": 100,
+    "qv": "AQEFAQIAARtFqJqwaB5fLq6nL66kNGoyrKuUMnovN7G7nxmtH6WGsI4sCBjuq-Iu-xz1sK-ufqduHU2xlKZPsFOlrqx_LPCtTKXprFgtvC5ZKY6xBTBcsTAod6hWr1wlazA4LGqw_i34Kb4mYSXOnqmxSq-ZMISxAiwZrxerTqj8HBole6ubqUIqgCkQHJavARCdqC8ov6XbpvCshK6MH-moEKi5rsMxw6pxKlyulSLWJaIvuSlbMC4r7Z_VKQKoaSgVsZ4khiuDLnesQCl6o3upbCo7rXqmNSuAL0gqJio1qGgpByzMLZuhpKlzMDUpZx9uINksqy_BLBUoZK88LqSrey2JpKA",
+    "snippet": "sizes"
+  },
+  "products": [
+    {
+      "id": 96159759,
+      "time1": 3,
+      "time2": 28,
+      "wh": 206348,
+      "dtype": 6597069766664,
+      "dist": 200,
+      "root": 74971290,
+      "kindId": 2,
+      "brand": "Setner",
+      "brandId": 223597,
+      "siteBrandId": 0,
+      "colors": [
+        {
+          "name": "белый",
+          "id": 16777215
+        }
+      ],
+      "subjectId": 217,
+      "subjectParentId": 1,
+      "name": "Лонгслив оверсайз",
+      "entity": "лонгсливы",
+      "matchId": 373506403,
+      "supplier": "Setner",
+      "supplierId": 875583,
+      "supplierRating": 4.8,
+      "supplierFlags": 12225,
+      "pics": 14,
+      "rating": 5,
+      "reviewRating": 4.8,
+      "nmReviewRating": 4.8,
+      "feedbacks": 26367,
+      "nmFeedbacks": 26367,
+      "panelPromoId": 1010357,
+      "volume": 36,
+      "viewFlags": 1581080,
+      "sizes": [
+        {
+          "name": "44",
+          "origName": "XS",
+          "rank": 462144,
+          "optionId": 152872827,
+          "wh": 206348,
+          "time1": 3,
+          "time2": 28,
+          "dtype": 6597069766664,
+          "price": {
+            "basic": 300000,
+            "product": 133100,
+            "logistics": 0,
+            "return": 0
+          },
+          "saleConditions": 402653184,
+          "payload": "A16Y6E2L1m1/O6BhKuxw3K1OxxLkNEndn/rL9pX8MyMlS6p9X8d8d5lvj+TUG6DxzJxW4brQJTWURFF5uz2fhzVeB4LfTz9IdRl/LcHZE1VobbpHHL76iowTSPJvmYRa/09zkP8QhZjy7pvATXMpH6MZLLcYHV1RwlsYHIZ0JLmOZLZGrgL9bfEChujErnXAIj96VEwlGMNo1dp2nHduBD/5QfDQdQ"
+        },
+        {
+          "name": "46",
+          "origName": "S",
+          "rank": 504163,
+          "optionId": 152872828,
+          "wh": 206348,
+          "time1": 3,
+          "time2": 28,
+          "dtype": 6597069766664,
+          "price": {
+            "basic": 300000,
+            "product": 133100,
+            "logistics": 0,
+            "return": 0
+          },
+          "saleConditions": 402653184,
+          "payload": "A/j7nv2H8nrDSwvznS/pBnAw4F0CRMozvZ8zVdJzO89tS2GVfI2EpKdWkDx3r2k+NVtIOJi/a/uLHwUUsPWZJvS4SfRU5r7GjI0QpkFir+87ClEGlm4TmjVMqzfUH6y3K3JjopayiIuhX3TU2oHjuo9G+ciaV5JlGUOsI26DKbi+qr33blyIeyLElxYouTm0/JgUCijS+EIlHnS4XDt5F7RnNp0kKg"
+        },
+        {
+          "name": "48",
+          "origName": "M",
+          "rank": 536414,
+          "optionId": 152872829,
+          "wh": 206348,
+          "time1": 3,
+          "time2": 28,
+          "dtype": 6597069766664,
+          "price": {
+            "basic": 300000,
+            "product": 133100,
+            "logistics": 0,
+            "return": 0
+          },
+          "saleConditions": 402653184,
+          "payload": "AzdT5PlzviQ819VIBkQ1f3NfLTugJNBcYbqLRHj9JicXu67k8RxrwxTFbgyZnt5UGcsqssLXCsdbzT+489NaboFG61qNPgSxde8I/XrdAM3f+n0reUnzePzzCWrRnYtbXqDfImkzTrXOcpS9QlqALU1JCALIvMEBm51Hb2H0I77tuh5yCsfqUyekwNcwoW/oUnxp8puDlYNEidg85ylJ2zjHQDa8dQ"
+        },
+        {
+          "name": "50",
+          "origName": "L",
+          "rank": 568056,
+          "optionId": 152872830,
+          "wh": 206348,
+          "time1": 3,
+          "time2": 28,
+          "dtype": 6597069766664,
+          "price": {
+            "basic": 300000,
+            "product": 133100,
+            "logistics": 0,
+            "return": 0
+          },
+          "saleConditions": 402653184,
+          "payload": "A4VqpAxeKQz6l3363NYBTCTfg0b/z3yi4STrb4l7xJJxAW7GE4kfkJhe9kstgkiEKjFQYzY3+esst0ig7HhG/Unl/F/8Lxey+KwZv/X0GXkcQV4Z9RB1+vPGwVARMTd7tN+5kDQ9EbjXxGW2u66oekKUmjcfejq4BXJWDRfC/8BSACFpye3TN8D/qWTiN6mAIqxeW6NYoApb8EhxIvMDjMTRSDOcfQ"
+        },
+        {
+          "name": "52",
+          "origName": "XL",
+          "rank": 598495,
+          "optionId": 152872831,
+          "wh": 206348,
+          "time1": 3,
+          "time2": 28,
+          "dtype": 6597069766664,
+          "price": {
+            "basic": 300000,
+            "product": 133100,
+            "logistics": 0,
+            "return": 0
+          },
+          "saleConditions": 402653184,
+          "payload": "AyXSSwop6K5a+OSXcJwjK7m3KeKPXdw+d4rzUb5fOYoFFagz6m1d45A5jD2dGlwPLpIFoHHMh5+l1ZVbduAGAXJvlvouutLqSPGUQXlID6Kto89izR9Otlbeo8zvJHnUL6zW4/mepWYbsERVMWAuXufeC2q5GNEQdinYx5uBVkZStKRgLNlD9mVpHDrd8nqWD59SqVVLA7EdrJ6KKQJoalPZmDapuA"
+        },
+        {
+          "name": "54",
+          "origName": "XXL",
+          "rank": 622803,
+          "optionId": 152872832,
+          "wh": 206348,
+          "time1": 3,
+          "time2": 28,
+          "dtype": 6597069766664,
+          "price": {
+            "basic": 300000,
+            "product": 133100,
+            "logistics": 0,
+            "return": 0
+          },
+          "saleConditions": 402653184,
+          "payload": "AxYBPWCN39I+qrl8pj0pEA8J9kWdQoyi49tlMr0dHHJcjjI4jfkrV3/rvhi7ajKkvGkDVivOQ/10UvnmeYM4D/LkkF5rOMjU8PbYOIxtJoMUECIXf7SOi3UJoScEaGmP+AoEClDBFf64S7mM34UgeTF3pWvyzfaLzqtIbD6qODX1DuLJDfLzhcKEwTadQKY7OTLVGzAF3O/KUfbH3wykROi+/iidOw"
+        }
+      ],
+      "totalQuantity": 100,
+      "meta": {
+        "tokens": [],
+        "presetId": 200020762
+      }
+    }
+  ],
+  "total": 305
+}
